@@ -124,18 +124,16 @@ LOGIN PAGE START
     
     width: 100%;
     height: 550px;
-    background-color: yellowgreen;
     background-image: url(../Banners/login_banner_1.jpg);
 }
 
 #login_box{
     
-    width: 280px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 550px;
+    padding-top: 50px;
     color: white;
+    margin: auto;
 }
 
 #login_box h1{
@@ -212,28 +210,38 @@ LOGIN PAGE END
     border-spacing: 10px;
 }
 
-.td_aligment{
-    text-align: right;
-}
-
 #myaccount_container_outer{
     
     width: 100%;
     height: 550px;
     background-color: yellowgreen;
     background-image: url(../Banners/myaccount_banner_1.jpg);
+    color: white;
 }
 
 #myaccount_container_inner{
     
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-size: 24px;
+    width: 100%;
+    height: 550px;
+    padding-top: 100px;
 }
+
+
+#myaccount_table{
+    font-size: 24px;
+    width: 100%;
+    
+}
+
+#myaccount_table td{
+    width: 50%; 
+}
+
+.td_1{
+    text-align: right;
+}
+
+
 
 .buy_btn button{
     color: white;
